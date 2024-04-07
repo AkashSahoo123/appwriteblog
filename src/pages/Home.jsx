@@ -37,10 +37,11 @@ function Home() {
                       </div>
 
                       <div className='md:w-[40%] mt-10 md:mt-0 flex justify-center'>
-                          <div className='border-[5px] w-full max-w-[400px] rounded-xl overflow-hidden border-white shadow-2xl shadow-white/30'>
-                              <img  src="https://tse3.mm.bing.net/th?id=OIP._Z4QA1NAvw_xQu2F8dKbjgHaFj&pid=Api&P=0&h=220" alt="notebookImage" />
-                          </div>
-                      </div>
+                        <div className='border-[5px] w-full max-w-[400px] rounded-xl overflow-hidden border-white shadow-2xl shadow-white/30'>
+                            <img src="https://tse3.mm.bing.net/th?id=OIP._Z4QA1NAvw_xQu2F8dKbjgHaFj&pid=Api&P=0&h=220" alt="notebookImage" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                        </div>
+                        </div>
+
                   </div>
               </Container>
           </div>
